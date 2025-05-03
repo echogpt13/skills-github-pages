@@ -3,47 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Echo Store</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>EchoShop</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <div class="logo">
-            <h1>Echo Store</h1>
-        </div>
+    <header class="hero">
         <nav>
+            <div class="logo">EchoShop</div>
             <ul>
-                <li><a href="#">Ana Səhifə</a></li>
-                <li><a href="#">Məhsullar</a></li>
-                <li><a href="#">Əlaqə</a></li>
+                <li><a href="#haqqinda">Haqqımızda</a></li>
+                <li><a href="#xidmetler">Xidmətlər</a></li>
+                <li><a href="#elaqe">Əlaqə</a></li>
             </ul>
         </nav>
+        <div class="hero-content">
+            <h1>Xos geldiniz!</h1>
+            <p>Biz peşəkar olaraq size alisveris secimleri sunuruq.</p>
+            <a href="#elaqe" class="btn">Bizimlə Əlaqə</a>
+        </div>
     </header>
-    
-    <main>
-        <section class="products">
-            <div class="product">
-                <img src="https://via.placeholder.com/150" alt="PUBG UC">
-                <h3>PUBG UC 600</h3>
-                <p>600 UC – Oyun içi pul</p>
-                <p class="price">20 AZN</p>
-                <a href="https://wa.me/1122334455?text=Məhsulu%20almaq%20istəyirəm" class="btn">Sifariş Et</a>
-            </div>
 
-            <div class="product">
-                <img src="https://via.placeholder.com/150" alt="Valorant Points">
-                <h3>Valorant Points 1000</h3>
-                <p>1000 VP – Oyun içi pul</p>
-                <p class="price">25 AZN</p>
-                <a href="https://wa.me/1122334455?text=Məhsulu%20almaq%20istəyirəm" class="btn">Sifariş Et</a>
-            </div>
+    <section id="haqqinda" class="section">
+        <h2>Haqqımızda</h2>
+        <p>Biz DropShippingle mesqul olan bir team olaraq size keyfiyyetli alisveris sunacayiq.</p>
+    </section>
 
-            <!-- Digər məhsullar əlavə edilə bilər -->
-        </section>
-    </main>
+    <section id="xidmetler" class="section dark">
+        <h2>Xidmətlərimiz</h2>
+        <div class="cards">
+            <div class="card">Bura nedir?</div>
+            <div class="card">Qiymetler</div>
+            <div class="card">Texniki Dəstək</div>
+        </div>
+    </section>
+
+    <section id="elaqe" class="section">
+        <h2>Bizimlə Əlaqə</h2>
+        <p>Email: echox77x@gmail.com</p>
+        <p>Telefon: +994 77 305 01 38</p>
+    </section>
 
     <footer>
-        <p>&copy; 2025 Echo Store | <a href="https://wa.me/1122334455">WhatsApp ilə əlaqə</a></p>
+        <p>&copy; 2025 EchoShop. Bütün hüquqlar qorunur.</p>
     </footer>
 </body>
 </html>
+
